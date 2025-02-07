@@ -38,7 +38,18 @@ cd 10k_swap-contracts
 ```
 yarn install
 ```
+#### check if cairo_venv exixts?
+```
+ls -la cairo_venv
 
+```
+### if not then run the following commands
+```
+python3 -m venv cairo_venv  # Create a virtual environment
+source cairo_venv/bin/activate  # Activate it
+pip install cairo-lang  # Install Cairo
+
+```
 #### Compile a contract
 
 ```
